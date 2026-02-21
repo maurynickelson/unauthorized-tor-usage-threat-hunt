@@ -11,7 +11,7 @@ Management suspected employees may be using TOR browsers to bypass network secur
 
 ## TL;DR (Recruiter Summary)
 
-Conducted structured threat hunt using Microsoft Defender for Endpoint to detect unauthorized TOR browser installation and usage. Correlated file, process, and network telemetry to confirm intentional installation, execution, and active TOR network connectivity. Demonstrated behavioral detection methodology, timeline reconstruction, and endpoint containment decision-making.
+Detected unauthorized installation and active use of the TOR Browser on a corporate endpoint using Microsoft Defender Advanced Hunting (KQL). Correlated file artifacts, silent installation flags, process lineage, and network telemetry to confirm anonymized browsing activity. Demonstrated behavioral detection methodology, insider risk assessment, and structured SOC containment workflow.
 
 ---
 
