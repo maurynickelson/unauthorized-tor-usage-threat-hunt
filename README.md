@@ -15,6 +15,15 @@ Detected unauthorized installation and active use of the TOR Browser on a corpor
 
 ---
 
+## Incident Classification
+
+- **Category:** Unauthorized Software / Policy Violation
+- **Threat Type:** Anonymization Tool Usage
+- **Severity:** Medium
+- **Scope:** Single Endpoint (notengo)
+- **Malicious Activity Confirmed:** No
+- **Containment Action Taken:** Endpoint Isolation
+
 # 1. Investigation Methodology
 
 The hunt followed a hypothesis-driven approach:
