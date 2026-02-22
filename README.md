@@ -15,11 +15,37 @@ Detected unauthorized installation and active use of the TOR Browser on a corpor
 
 ---
 
+## Table of Contents
+
+- [TL;DR (Recruiter Summary)](#tldr-recruiter-summary)
+- [Incident Classification](#incident-classification)
+- [1. Investigation Methodology](#1-investigation-methodology)
+- [2. Detailed Findings](#2-detailed-findings)
+  - [2.1 TOR Installer Download & File Creation](#21-tor-installer-download--file-creation)
+  - [2.2 Silent Installation Execution](#22-silent-installation-execution)
+  - [2.3 TOR Browser Execution](#23-tor-browser-execution)
+  - [Process Lineage Analysis](#process-lineage-analysis)
+  - [2.4 Network Connectivity Confirmation](#24-network-connectivity-confirmation)
+  - [TOR Architecture Context](#tor-architecture-context)
+  - [Known TOR-Related Ports Monitored](#known-tor-related-ports-monitored)
+- [3. Chronological Timeline](#3-chronological-timeline)
+- [Telemetry Correlation Summary](#telemetry-correlation-summary)
+- [4. Risk Assessment](#4-risk-assessment)
+- [5. Response Actions](#5-response-actions)
+- [Evidence Artifacts (Telemetry Validation)](#evidence-artifacts-telemetry-validation)
+- [Extracted Indicators of Interest](#extracted-indicators-of-interest)
+- [6. Skills Demonstrated](#6-skills-demonstrated)
+- [Detection Engineering Opportunities](#detection-engineering-opportunities)
+- [7. MITRE ATT&CK Alignment](#7-mitre-attck-alignment)
+- [Conclusion](#conclusion)
+
+---
+
 ## Incident Classification
 
 - **Category:** Unauthorized Software / Policy Violation
 - **Threat Type:** Anonymization Tool Usage
-- **Severity:** Medium
+- **Severity:** Medium/High
 - **Scope:** Single Endpoint (notengo)
 - **Malicious Activity Confirmed:** No
 - **Containment Action Taken:** Endpoint Isolation
