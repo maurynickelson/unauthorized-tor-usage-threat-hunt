@@ -282,10 +282,10 @@ These files represent direct query exports used to validate findings during inve
 - [Tor-process-creation.csv](./evidence/Tor-process-creation.csv)  
   Process creation events confirming TOR browser launch and service initialization.
 
-- [Tor-useage.csv](./evidence/Tor-useage.csv)  
+- [tor-usage.csv](./evidence/tor-usage.csv)  
   Network telemetry showing tor.exe connectivity and proxy behavior.
 
-- [New-query.csv](./evidence/New%20query.csv)  
+- [new-query.csv](./evidence/new-query.csv) 
   Supplemental Advanced Hunting query output used during investigative pivots.
 
 These datasets demonstrate direct telemetry analysis rather than screenshot-based validation and support reproducibility of investigative findings.
