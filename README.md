@@ -263,6 +263,61 @@ These artifacts validate findings documented in this report and demonstrate dire
 
 ---
 
+---
+
+# Evidence Artifacts (Telemetry Validation)
+
+Raw telemetry exports from Microsoft Defender Advanced Hunting are stored in the `/evidence/` directory of this repository.
+
+These files represent direct query exports used to validate findings during investigation.
+
+## Available Artifacts
+
+- [tor-download.csv](./evidence/tor-download.csv)  
+  File creation and TOR installer download activity.
+
+- [Tor-install.csv](./evidence/Tor-install.csv)  
+  Installer execution telemetry, including silent installation flags.
+
+- [Tor-process-creation.csv](./evidence/Tor-process-creation.csv)  
+  Process creation events confirming TOR browser launch and service initialization.
+
+- [Tor-useage.csv](./evidence/Tor-useage.csv)  
+  Network telemetry showing tor.exe connectivity and proxy behavior.
+
+- [New-query.csv](./evidence/New%20query.csv)  
+  Supplemental Advanced Hunting query output used during investigative pivots.
+
+These datasets demonstrate direct telemetry analysis rather than screenshot-based validation and support reproducibility of investigative findings.
+
+---
+
+# Extracted Indicators of Interest
+
+| Type | Value |
+|------|-------|
+| Installer File | tor-browser-windows-x86_64-portable-15.0.3.exe |
+| Installation Flag | /S (silent install) |
+| Executable | tor.exe |
+| Browser Binary | firefox.exe (Tor Bundle) |
+| Proxy IP | 127.0.0.1 |
+| Desktop Artifact | tor-shopping-list.txt |
+| Endpoint | notengo |
+
+---
+
+## Telemetry Correlation Summary
+
+This investigation correlated activity across three primary telemetry domains:
+
+1. **File Events** → Confirmed TOR download and artifact creation  
+2. **Process Events** → Confirmed silent installation and runtime execution  
+3. **Network Events** → Confirmed TOR proxy initialization and anonymized connectivity  
+
+Cross-domain validation strengthened investigative confidence and reduced false-positive assumptions.
+
+---
+
 # 6. Skills Demonstrated
 
 ## Threat Hunting & Detection
