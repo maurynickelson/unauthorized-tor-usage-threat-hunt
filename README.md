@@ -110,6 +110,17 @@ This confirmed active TOR session.
 
 ---
 
+## Process Lineage Analysis
+
+Observed parent-child execution chain:
+
+- tor-browser-windows-x86_64-portable-15.0.3.exe → firefox.exe
+- firefox.exe → tor.exe
+
+This confirms legitimate TOR bundle execution rather than malicious process injection or masquerading. No abnormal parent processes or privilege escalation indicators were observed.
+
+---
+
 ## 2.4 Network Connectivity Confirmation
 
 ```kql
@@ -135,6 +146,29 @@ At **2026-01-12T02:30:27Z**:
 - Path: `C:\Users\notengo\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe`
 
 Network activity consistent with TOR operation.
+---
+
+### TOR Architecture Context
+
+Connections to 127.0.0.1 are consistent with Tor’s local SOCKS proxy architecture. Tor Browser routes traffic through a local proxy (typically port 9050 or 9150) before forwarding encrypted traffic to external Tor entry nodes.
+
+Monitoring localhost proxy activity combined with `tor.exe` execution is a strong behavioral indicator of active Tor usage, even when external node IP addresses rotate frequently.
+
+---
+
+### Known TOR-Related Ports Monitored
+
+The following ports were monitored during investigation due to common TOR usage patterns:
+
+- **9001** – ORPort (Onion Router traffic)
+- **9030** – Directory Port
+- **9040** – Transparent proxy
+- **9050** – SOCKS proxy
+- **9051** – Control port
+- **9150** – TOR Browser proxy
+- **80 / 443** – Standard HTTP/HTTPS exit traffic
+
+Monitoring these ports combined with tor.exe process activity strengthens detection confidence.
 
 ---
 
