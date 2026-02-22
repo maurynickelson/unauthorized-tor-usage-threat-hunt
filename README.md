@@ -197,6 +197,18 @@ Indicates interactive usage session during TOR activity.
 
 ---
 
+# Telemetry Correlation Summary
+
+This investigation correlated activity across three primary telemetry domains:
+
+1. File Events → Confirmed TOR download and artifact creation  
+2. Process Events → Confirmed silent installation and runtime execution  
+3. Network Events → Confirmed TOR proxy initialization and connectivity  
+
+Cross-domain validation strengthened investigative confidence and reduced false-positive assumptions.
+
+---
+
 # 4. Risk Assessment
 
 Observed activity was:
@@ -220,6 +232,34 @@ Risk concerns include:
 - Management notified
 - Usage documented
 - No malware remediation required
+
+---
+
+# Evidence Artifacts (Telemetry Validation)
+
+Raw telemetry exported from Microsoft Defender Advanced Hunting:
+
+- `tor-download.csv` – File creation and download events  
+- `Tor-install.csv` – Installer execution logs  
+- `Tor-process-creation.csv` – Process creation telemetry  
+- `Tor useage.csv` – Network activity logs  
+- `New query.csv` – Supplemental detection query output  
+
+These artifacts validate findings documented in this report and demonstrate direct telemetry analysis rather than screenshot-based investigation.
+
+---
+
+# Extracted Indicators of Interest
+
+| Type | Value |
+|------|-------|
+| Installer File | tor-browser-windows-x86_64-portable-15.0.3.exe |
+| Installation Flag | /S (silent install) |
+| Executable | tor.exe |
+| Browser Binary | firefox.exe (Tor Bundle) |
+| Proxy IP | 127.0.0.1 |
+| Desktop Artifact | tor-shopping-list.txt |
+| Endpoint | notengo |
 
 ---
 
