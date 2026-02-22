@@ -1,0 +1,3 @@
+﻿Timestamp,DeviceName,AccountName,ActionType,FileName,FolderPath,SHA256,ProcessCommandLine
+"Jan 11, 2026 6:26:52 PM",notengo,notengo,ProcessCreated,Notepad.exe,C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2508.38.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe,3d5b56ec5cbe064e10b9525ef74359a4e6b83a9c3341f5fbaac629bce80b6817,"""Notepad.exe"" ""C:\Users\Notengo\Downloads\tor-browser-windows-x86_64-portable-15.0.3.exe.asc"""
+"Jan 11, 2026 6:28:16 PM",notengo,notengo,ProcessCreated,tor-browser-windows-x86_64-portable-15.0.3.exe,C:\Users\Notengo\Downloads\tor-browser-windows-x86_64-portable-15.0.3.exe,b0588a2bf8ac6a2a47ee4a06799360fc3ddc3be251c8461af2893aaa1e1f60ff,tor-browser-windows-x86_64-portable-15.0.3.exe  /S

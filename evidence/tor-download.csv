@@ -1,0 +1,15 @@
+﻿Timestamp,DeviceName,ActionType,FileName,FolderPath,SHA256,Account
+"Jan 11, 2026 7:27:37 PM",notengo,FileCreated,OpenHandleCollector.exe,C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\DataCollection\8809.14489670.0.14489670-bd7fb08c6bcbdf36bb50226d636da6aed142eb60\OpenHandleCollector.exe,ce2cc2a8d0d120ba3f30cabe04869b3fb061eb9916fbebfff67c32e74f9a9477,system
+"Jan 11, 2026 7:27:37 PM",notengo,FileCreated,OpenHandleCollector.exe,C:\ProgramData\Microsoft\Windows Defender Advanced Threat Protection\DataCollection\8809.14489670.0.14489670-bd7fb08c6bcbdf36bb50226d636da6aed142eb60\OpenHandleCollector.exe,ce2cc2a8d0d120ba3f30cabe04869b3fb061eb9916fbebfff67c32e74f9a9477,system
+"Jan 11, 2026 6:48:50 PM",notengo,FileCreated,DeviceInventory.xml,C:\Windows\CbsTemp\31228781_4147689349\LocalFoDEnum\DeviceInventory.xml,,system
+"Jan 11, 2026 6:48:46 PM",notengo,FileCreated,DeviceInventory.xml,C:\Windows\CbsTemp\31228781_4143705337\LocalFoDEnum\DeviceInventory.xml,,system
+"Jan 11, 2026 6:36:54 PM",notengo,FileCreated,tor-shopping-list.lnk,C:\Users\Notengo\AppData\Roaming\Microsoft\Windows\Recent\tor-shopping-list.lnk,368800bdaa038b5c398b5f04125cf64d29abf5e6d2850b0b996466b89741c3fc,notengo
+"Jan 11, 2026 6:36:54 PM",notengo,FileCreated,tor-shopping-list.txt,C:\Users\Notengo\Desktop\tor-shopping-list.txt,7ecc9b621e29c7c15b2a96461dab9c17eba97ced69eac4cfe1d2dd739b1a084a,notengo
+"Jan 11, 2026 6:29:19 PM",notengo,FileCreated,storage-sync-v2.sqlite,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default\storage-sync-v2.sqlite,,notengo
+"Jan 11, 2026 6:29:03 PM",notengo,FileCreated,storage.sqlite,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Data\Browser\profile.default\storage.sqlite,,notengo
+"Jan 11, 2026 6:28:50 PM",notengo,FileCreated,Tor Browser.lnk,C:\Users\Notengo\Desktop\Tor Browser\Tor Browser.lnk,b4b23387f78109065c11bf77c6b3488b4b0729cce3c47c65df52395a1ea522d6,notengo
+"Jan 11, 2026 6:28:40 PM",notengo,FileCreated,tor.exe,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe,5c204e004ec7f65ebe3a9bdc55170144a1067bf89a6712b87e0825a036e45ff8,notengo
+"Jan 11, 2026 6:28:39 PM",notengo,FileCreated,tor.txt,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\tor.txt,47b54ed17e8fdcab3c44729a1789a09b208f9a63a845a7e50def9df729eebad0,notengo
+"Jan 11, 2026 6:28:39 PM",notengo,FileCreated,Torbutton.txt,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\Torbutton.txt,73b2a217734a2b37ecc0a26e5ba7d429e729f41d98ef0c09caff92f69573b625,notengo
+"Jan 11, 2026 6:28:39 PM",notengo,FileCreated,Tor-Launcher.txt,C:\Users\Notengo\Desktop\Tor Browser\Browser\TorBrowser\Docs\Licenses\Tor-Launcher.txt,d4fd98d01e1714e6b86f3b2c721e80f593387de8b10da690625039155fa2104c,notengo
+"Jan 11, 2026 6:27:18 PM",notengo,FileRenamed,tor-browser-windows-x86_64-portable-15.0.3.exe,C:\Users\Notengo\Downloads\tor-browser-windows-x86_64-portable-15.0.3.exe,b0588a2bf8ac6a2a47ee4a06799360fc3ddc3be251c8461af2893aaa1e1f60ff,notengo

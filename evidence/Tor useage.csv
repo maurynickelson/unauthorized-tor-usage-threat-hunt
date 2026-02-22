@@ -1,0 +1,9 @@
+﻿Timestamp,DeviceName,InitiatingProcessAccountName,ActionType,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,InitiatingProcessFolderPath
+"Jan 11, 2026 6:29:37 PM",notengo,notengo,ConnectionFailed,127.0.0.1,9150,,firefox.exe,c:\users\notengo\desktop\tor browser\browser\firefox.exe
+"Jan 11, 2026 6:30:27 PM",notengo,notengo,ConnectionSuccess,103.149.168.242,9001,,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Jan 11, 2026 6:30:34 PM",notengo,notengo,ConnectionSuccess,51.15.170.86,443,,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Jan 11, 2026 6:30:34 PM",notengo,notengo,ConnectionSuccess,193.182.111.131,443,,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Jan 11, 2026 6:30:28 PM",notengo,notengo,ConnectionSuccess,103.149.168.242,9001,https://www.cyfvx2gm7se.com,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Jan 11, 2026 6:30:35 PM",notengo,notengo,ConnectionSuccess,193.182.111.131,443,https://www.2uppezvrazguoxuovqvxjynv.com,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
+"Jan 11, 2026 6:30:54 PM",notengo,notengo,ConnectionSuccess,127.0.0.1,9150,,firefox.exe,c:\users\notengo\desktop\tor browser\browser\firefox.exe
+"Jan 11, 2026 6:30:35 PM",notengo,notengo,ConnectionSuccess,51.15.170.86,443,https://www.2bmzsizebgex3wwgvjh.com,tor.exe,c:\users\notengo\desktop\tor browser\browser\torbrowser\tor\tor.exe
